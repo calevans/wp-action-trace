@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Wp-action-trace
-Version: 0.2.3
+Version: 1.0
 Description: A simple plugin to show you exactly what actions are being called when you run WordPress.
 Author: Cal Evans
 Author URI: http://blog.calevans.com
