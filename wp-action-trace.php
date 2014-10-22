@@ -5,9 +5,7 @@ Version: 1.0
 Description: A simple plugin to show you exactly what actions are being called when you run WordPress.
 Author: Cal Evans
 Author URI: http://blog.calevans.com
-Plugin URI: http://blog.calevans.com
-Text Domain: wp-action-trace
-Domain Path:http://blog.calevans.com
+Plugin URI: https://www.getpantheon.com/blog/tracing-wordpress-actions
 */
 
 function calevans_action_trace()
