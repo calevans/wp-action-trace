@@ -104,4 +104,6 @@ function calevans_format_debug_output($actions=[],$showArgs=false, $showTime=fal
  * 99 = the number of parameters that this method can accept. Honestly, if you have a action approaching this many parameter, you really are doing sometheing wrong. 
  * 
  */
-add_action( 'all', 'calevans_action_trace', 99999, 99 );
+if (isset($_GET['showDebugTrace']) && (bool)$_GET['showDebugTrace']===true) {
+	add_action( 'all', 'calevans_action_trace', 99999, 99 );
+}
